@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+counter = "Hy7s8s286KFx1fQwVuBntSxsWp7Cr8EAtMcoG4y7VZ7N"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/jveer634/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
